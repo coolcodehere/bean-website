@@ -1,0 +1,17 @@
+body {
+    background-image: url(../img/beans.png);
+}
+
+.nav-right {
+    float: right;
+}
+
+.outline {
+    outline: 2px solid black;
+    box-shadow: 0 0 3pt 2pt black;
+    border-radius: 5px;
+}
+
+.top-spacing {
+    margin-top: 5em
+}
