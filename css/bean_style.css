@@ -1,5 +1,6 @@
 body {
     background-image: url(../img/beans.png);
+    background-size: cover;
 }
 
 .nav-right {
