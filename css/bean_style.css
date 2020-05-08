@@ -3,6 +3,11 @@ body {
     background-size: cover;
 }
 
+#beans {
+    width: 25%;
+    height: auto;
+}
+
 .nav-right {
     float: right;
 }
@@ -16,3 +21,17 @@ body {
 .top-spacing {
     margin-top: 5em
 }
+
+.rotate {
+    animation: rotation 5s infinite linear;
+}
+
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
+  
